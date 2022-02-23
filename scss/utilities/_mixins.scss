@@ -55,9 +55,9 @@
   }
 
   .warning {
-    background-color: #fd7856;
+    background-color: $warning;
 
     &:hover {
-        background-color: lighten(#fd7856, 25%);
+        background-color: lighten($warning, 25%);
         }
   }

@@ -1,0 +1,63 @@
+.nav {
+    padding-left: 0;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+
+    &-link {
+        text-align: center;
+        border-radius: 5px;
+        padding: 10px 0;
+        display: block;
+        width: 100%;
+        transition: 
+          background-color .2s ease-in-out, 
+          color .2s ease-in-out;
+    }
+
+    &-link:hover {
+        color: $font-primary;
+        background-color: $color-theme;
+      }
+  }
+
+  //Buttons 
+  .default {
+    background-color: $links;
+
+    &:hover {
+     background-color: lighten($links, 25%);   
+    }
+  }
+
+  .error {
+    background-color: $error;
+
+    &:hover {
+    background-color: lighten($error, 25%);
+    }
+  }
+
+  .info {
+    background-color: #927bc1;
+
+    &:hover {
+        background-color: lighten(#927bc1, 25%);
+        }
+  }
+  
+  .success {
+    background-color: #63cc82;
+
+    &:hover {
+        background-color: lighten(#63cc82, 25%);
+        }
+  }
+
+  .warning {
+    background-color: #fd7856;
+
+    &:hover {
+        background-color: lighten(#fd7856, 25%);
+        }
+  }

@@ -4,6 +4,7 @@
   &:hover {
    background-color: lighten($links, 25%);   
   }
+  @include btnstyle;
 }
 
 .error {
@@ -12,6 +13,7 @@
   &:hover {
   background-color: lighten($error, 25%);
   }
+  @include btnstyle;
 }
 
 .info {
@@ -20,6 +22,7 @@
   &:hover {
       background-color: lighten(#927bc1, 25%);
       }
+  @include btnstyle;
 }
 
 .success {
@@ -28,6 +31,7 @@
   &:hover {
       background-color: lighten(#63cc82, 25%);
       }
+      @include btnstyle;
 }
 
 .warning {
@@ -36,5 +40,6 @@
   &:hover {
       background-color: lighten($warning, 25%);
       }
+      @include btnstyle;
 }
   
